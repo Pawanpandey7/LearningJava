@@ -1,3 +1,4 @@
+// default constructor or non parameterized constructor
 class ConstDemo{
 
     double l,b;
