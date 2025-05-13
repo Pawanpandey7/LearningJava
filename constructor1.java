@@ -1,9 +1,9 @@
 // default constructor or non parameterized constructor
-class ConstDemo{
+class constructor1{
 
     double l,b;
 
-    ConstDemo()
+    constructor1()
     {
        l=10;
        b=20;
@@ -14,7 +14,7 @@ class ConstDemo{
     }
     public static void main(String[] args)
     {
-        ConstDemo obj1 = new ConstDemo();
+        constructor1 obj1 = new constructor1();
         obj1.DisplayArea();
     }
 
