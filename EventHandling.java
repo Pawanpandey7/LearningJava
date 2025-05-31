@@ -11,7 +11,8 @@ class EventHandling extends JFrame implements ActionListener
     {
         tf = new JTextField(); //creating a new text field
         tf.setBounds(60,50,170,20); //setting position (x,y) and size (width,height) of text field
-        JButton button = new JButton("Show"); //creating a new button with label "Show"
+        JButton button = new JButton("Show");
+        button.setBounds(40,50,170,20); //creating a new button with label "Show"
         button.addActionListener(this); // registering current class(this) as the action listener for the button
         add(button); // adding the button to the frame
         add(tf);  // adding th etext fiels to the frame
