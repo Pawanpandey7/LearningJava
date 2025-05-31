@@ -1,30 +1,32 @@
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.*; // includes classes for handling events
 
 import javax.swing.*;
-
+//creating a class 'EventHandling' that extends JFrame (a window) and implements ActionListener (to handle button clicks)
 class EventHandling extends JFrame implements ActionListener
 {
-    JTextField tf;
+    JTextField tf; // declaring a text field object to display text
+    //constructor to set up the GUI
     EventHandling()
     {
-        tf = new JTextField();
-        tf.setBounds(60,50,170,20);
-        JButton button = new JButton("Show");
-        button.addActionListener(this);
-        add(button);
-        add(tf);
-        setSize(250,250);
-        setLayout(null);
-        setVisible(true);
+        tf = new JTextField(); //creating a new text field
+        tf.setBounds(60,50,170,20); //setting position (x,y) and size (width,height) of text field
+        JButton button = new JButton("Show"); //creating a new button with label "Show"
+        button.addActionListener(this); // registering current class(this) as the action listener for the button
+        add(button); // adding the button to the frame
+        add(tf);  // adding th etext fiels to the frame
+        setSize(250,250); // setting the size of the window (width,height)
+        setLayout(null); // using no layout manager - allows absolute positioning
+        setVisible(true); // making the window visible
     }
+    //overriding the actionPerformed method to define what happens when the button is clicked
     @Override
     public void actionPerformed(ActionEvent e)
     {
-        tf.setText("hello world");
+        tf.setText("hello world"); //setting the text of the text field to "hello world"
     }
     public static void main(String[] args)
     {
-        new EventHandling();
+        new EventHandling(); //creating an object of EventHandling to run the GUI
     }
 }
