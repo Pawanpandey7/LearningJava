@@ -31,6 +31,7 @@ public class Que2
         f.setVisible(true);
         f.setDefaultCloseOperation(f.EXIT_ON_CLOSE);
     }
+
     class keychecker extends KeyAdapter{
         public void keyPressed(KeyEvent e)
         {
@@ -45,5 +46,5 @@ public class Que2
     public static void main(String args[])
         {
             new Que2();
-        }
+        }       
 }
