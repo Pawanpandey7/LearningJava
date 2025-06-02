@@ -1,3 +1,5 @@
+//Q. Write a program using swing components to find simple interest. Use text fields for inputs
+//and output. Your program should display the result when the user presses a button.
 import javax.swing.*;
 import java.awt.event.*;
 public class Que3 implements ActionListener{
