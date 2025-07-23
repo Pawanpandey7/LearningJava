@@ -13,5 +13,4 @@ public class Addition{
         // display result in a JOptionPane message dialog
         JOptionPane.showMessageDialog(null,"The sum is "+sum,"Sum of two integers",JOptionPane.PLAIN_MESSAGE);
     }
-    
 }

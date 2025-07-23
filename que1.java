@@ -36,10 +36,8 @@ public class que1 implements ActionListener{
         int a2 = Integer.parseInt(b);
         int sum = a1 + a2;
         String str = String.valueOf(sum);
-
         result.setText(str);
     }
-   
     public static void main(String args[])
     {
         new que1();

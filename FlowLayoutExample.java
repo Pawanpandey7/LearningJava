@@ -15,7 +15,7 @@ public class FlowLayoutExample{
         f.add(b4);
         f.add(b5);
         f.setLayout(new FlowLayout());
-        f.setSize(1000,1000);
+        f.setSize(300,300);
         f.setVisible(true);
     }
     public static void main(String[] args)

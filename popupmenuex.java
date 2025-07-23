@@ -24,9 +24,6 @@ class popupmenuex{
             }
         });
         fr.setVisible(true);
-        fr.setSize(400,400);
-    
-
-        
+        fr.setSize(400,400);  
     }
 }

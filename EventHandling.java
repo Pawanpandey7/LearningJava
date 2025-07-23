@@ -30,4 +30,5 @@ class EventHandling extends JFrame implements ActionListener
     {
         new EventHandling(); //creating an object of EventHandling to run the GUI
     }
+    
 }

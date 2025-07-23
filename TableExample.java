@@ -16,11 +16,5 @@ class TableExample{
         fr.setVisible(true);
         fr.setSize(400,400);
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-
-
- 
-
-
     }
 }

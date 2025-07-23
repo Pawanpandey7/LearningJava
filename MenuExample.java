@@ -10,11 +10,7 @@ class MenuExample{
         JMenu submenu = new JMenu("submenu");
         JPanel panel = new JPanel();
         ImageIcon icon = new ImageIcon("/Users/madridista/Desktop/container/imp.jpeg");
-        
-        Image image = icon.getImage(); // get Image object from ImageIcon
-        Image scaledImage = image.getScaledInstance(20, 20, Image.SCALE_SMOOTH); // width, height, scaling hint
-        ImageIcon scaledIcon = new ImageIcon(scaledImage);
-        JMenuItem i1 = new JMenuItem("1",scaledIcon);
+        JMenuItem i1 = new JMenuItem("1")
         JMenuItem i2 = new JMenuItem("2");
         JMenuItem i3 = new JMenuItem("3");
         JMenuItem i4 = new JMenuItem("4");

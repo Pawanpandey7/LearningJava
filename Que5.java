@@ -51,5 +51,4 @@ public class Que5 extends JFrame {
     public static void main(String[] args){
         new Que5();
     }
-
 }
